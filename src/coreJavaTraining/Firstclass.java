@@ -23,4 +23,11 @@ public class Firstclass {
 		System.out.println(a);   //if "" is not given then it will treat as variable and which should be define
 	}
 
+	Firstclass fn = new Firstclass();
+	fn.getData();
+	secondclass sc = new secondclass();
+	sc.setData();
+	System.out.println("Hello World");  //ln is to print in next line
+	System.out.println("Hello Arun");
+	System.out.println(a);
 }
